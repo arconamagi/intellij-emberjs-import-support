@@ -7,7 +7,10 @@ for JetBrains IDEs (Idea, WebStorm, ...)
 
 In your project folder invoke:
 
-* `npm i intellij-emberjs-import-support --save-dev`
+* `npm i intellij-emberjs-import-support`<br>
+Note: Please do not specify `--save-dev` during npm install - it will lead to Ember.js error:<br>
+The `intellij-emberjs-import-support` addon could not be found at `../node_modules/intellij-emberjs-import-support`.
+
 
 * in the project's root create `webpack.config.js` file with the following content:
 ```javascript

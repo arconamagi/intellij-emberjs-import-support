@@ -7,8 +7,8 @@ for JetBrains IDEs (Idea, WebStorm, ...)
 
 In your project folder invoke:
 
-* `npm i intellij-emberjs-import-support`<br>
-Note: Please do not specify `--save-dev` during npm install - it will lead to Ember.js error:<br>
+* `npm i intellij-emberjs-import-support --no-save`<br>
+Note: double check that `intellij-emberjs-import-support` was not added to your `package.json` - this may lead to Ember.js' error:<br>
 The `intellij-emberjs-import-support` addon could not be found at `../node_modules/intellij-emberjs-import-support`.
 
 
@@ -66,4 +66,4 @@ Copyright (c) 2019 Dmitriy Labuzov.
 
 It also contains /@ember-packages subfolder from Ember.js (https://github.com/emberjs/ember.js/)
 Which is also licensed under MIT.
-Copyright (c) 2018 Yehuda Katz, Tom Dale and Ember.js contributors
+Copyright (c) 2019 Yehuda Katz, Tom Dale and Ember.js contributors

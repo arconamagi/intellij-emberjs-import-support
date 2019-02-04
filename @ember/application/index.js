@@ -1,1 +1,1 @@
-export * from '../../@ember-packages/ember-owner';
+export * from '../../@ember-packages/@ember/-internals/owner';

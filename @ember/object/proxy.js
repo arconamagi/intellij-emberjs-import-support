@@ -1,1 +1,1 @@
-export { ObjectProxy as default } from '../../@ember-packages/ember-runtime';
+export { ObjectProxy as default } from '../../@ember-packages/@ember/-internals/runtime';

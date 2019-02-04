@@ -1,9 +1,9 @@
 {
   "name": "intellij-emberjs-import-support",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Ember.js: support of `import from '@ember/..'` for JetBrains IDEs (Idea, WebStorm, ...)",
   "scripts": {
-    "postinstall": "git clone --single-branch -b v3.3.2 https://github.com/emberjs/ember.js.git; mv ./ember.js/packages @ember-packages; rm -rf ./ember.js; find ./@ember-packages -name '*.d.ts' -exec rm {} +"
+    "postinstall": "git clone --single-branch -b v3.6.1 https://github.com/emberjs/ember.js.git; mv ./ember.js/packages @ember-packages; rm -rf ./ember.js; find ./@ember-packages -name '*.d.ts' -exec rm {} +"
   },
   "repository": {
     "type": "git",

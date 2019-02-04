@@ -1,1 +1,1 @@
-export * from '../../@ember-packages/ember-metal';
+export * from '../../@ember-packages/@ember/-internals/metal';

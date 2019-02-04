@@ -36,4 +36,4 @@ export function inject(name, options) {
   //return new InjectedProperty('service', name, options);
 }
 
-export * from '../../@ember-packages/@ember/service';
+export default from '../../@ember-packages/@ember/service';

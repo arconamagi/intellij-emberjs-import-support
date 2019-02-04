@@ -19,8 +19,8 @@ const path = require('path');
 
 function aliasEmberDirs(appAlias) {
     const emberDirs = [
-        '/application', '/array', '/component', '/object',
-        '/polyfills', '/service', '/routing', '/utils', ''
+        '/application', '/array', '/component', '/controller', '/object', '/polyfills',
+        '/service', '/routing', '/runloop', '/utils', ''
     ];
     const emberBaseDir = 'node_modules/intellij-emberjs-import-support/@ember';
     return emberDirs.reduce(function(result, dir) {
@@ -54,7 +54,7 @@ That's it.
 
 # Improvements
 
-This package is not ready yet, and any help is appreciated. 
+This package is not ready yet, so any help is appreciated. 
 
 Feel free to create a Pull Requests with improvements / fixes.
 
@@ -62,7 +62,7 @@ Feel free to create a Pull Requests with improvements / fixes.
 # Licenses
 
 This package is licensed under MIT. 
-Copyright (c) 2018 Dmitriy Labuzov.
+Copyright (c) 2019 Dmitriy Labuzov.
 
 It also contains /@ember-packages subfolder from Ember.js (https://github.com/emberjs/ember.js/)
 Which is also licensed under MIT.

@@ -1,1 +1,1 @@
-export * from '../../@ember-packages/ember-runtime';
+export * from '../../@ember-packages/@ember/-internals/runtime';

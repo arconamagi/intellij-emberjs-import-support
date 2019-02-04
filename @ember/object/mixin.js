@@ -1,1 +1,1 @@
-export { Mixin as default } from '../../@ember-packages/ember-metal';
+export { Mixin as default } from '../../@ember-packages/@ember/-internals/metal';

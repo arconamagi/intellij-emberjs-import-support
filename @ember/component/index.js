@@ -1,1 +1,1 @@
-export { Component as default } from '../../@ember-packages/ember-glimmer';
+export { Component as default } from '../../@ember-packages/@ember/-internals/glimmer';

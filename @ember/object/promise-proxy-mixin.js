@@ -1,1 +1,1 @@
-export { PromiseProxyMixin as default } from '../../@ember-packages/ember-runtime';
+export { PromiseProxyMixin as default } from '../../@ember-packages/@ember/-internals/runtime';

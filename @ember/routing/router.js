@@ -1,1 +1,1 @@
-export { Router as default } from '../../@ember-packages/ember-routing';
+export { Router as default } from '../../@ember-packages/@ember/-internals/routing';

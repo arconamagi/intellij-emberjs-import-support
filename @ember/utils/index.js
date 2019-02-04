@@ -11,7 +11,7 @@ export {
     //computed - can't use it in Webstorm 2018.2.1 because of
     // `Initializer type ComputedProperty is not assignable to variable type string`
     _globalsComputed as computed
-} from '../../@ember-packages/ember-metal';
+} from '../../@ember-packages/@ember/-internals/metal';
 
 export {
     Object as EmberObject,
@@ -42,4 +42,4 @@ export {
     CoreObject,
     NativeArray,
     A
-} from '../../@ember-packages/ember-runtime';
+} from '../../@ember-packages/@ember/-internals/runtime';

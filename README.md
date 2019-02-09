@@ -37,10 +37,10 @@ module.exports = {
         ],
         root: path.resolve(__dirname),
         alias: aliasEmberDirs({
-            'src': 'app'
+            'myapp': 'app'
             // your application alias folders
-            // for example: 'src': 'app', will allow you to `import { foo } from 'src/bar';`
-            // where 'src/bar' is located in `app/bar` folder.
+            // for example: 'myapp': 'app', will allow you to `import { foo } from 'myapp/bar';`
+            // where 'myapp/bar' is located in `app/bar` folder.
         })
     }
 };
